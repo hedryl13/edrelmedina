@@ -1,0 +1,234 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: century gothic;
+}
+body{
+
+}
+
+ul{
+	list-style: none;
+	background-color: #000000;
+	float: right;
+	width: 100%;
+	padding-left: 860px;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+}
+
+ul li a {
+	display: block;
+	padding: 20px 25px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+    font-size: 15px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown {
+	background: black;
+	position: absolute;
+	z-index: 1;
+	display: none;
+	padding: 0 2px;
+	text-align: center;
+}
+
+ul li a:hover{
+	background: gray;
+	transition: .5s;
+	border-radius: 5px;
+}
+
+ul li:hover ul.dropdown{
+	display: block;
+	transition: .5s;
+	border-radius: 3px;
+}
+
+.logo{
+	color: white;
+	position: absolute;
+	top: 10px;
+	padding-left: 80px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.logo:hover{
+	word-spacing: 15px;
+	color: gray;
+	transition: .55s;
+    font-weight: bold;
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.center{
+        position: absolute;
+        top: 58%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: black;
+        border-radius: 7px;
+        margin-top: 10px;
+        padding-top: 50px;
+        box-shadow: 0 5px 5px 2px #000000;
+       }
+       
+       .center h1{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 3px solid silver;
+
+       }
+
+       .center form{
+        padding: 0 40px;
+        box-sizing: border-box;
+       }
+
+       form .txtfield{
+        position: relative;
+        border-bottom: 2px solid #adadad;
+        margin: 30px 0;
+       }
+
+       .txtfield input{
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+        color: #ffffff;
+       }
+
+       .txtfield label{
+        position: absolute;
+        top: 50%;
+        left:5%;
+        color: #adadad;
+        transform: translateY(-50%);
+        pointer-events: none;
+        transition: .5s;
+        font-size:  16px;
+
+       }
+
+       .txtfield span::before{
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: blueviolet;
+        transition: .5s;
+       }
+
+       .txtfield input:focus~label,
+       .txtfield input:valid~label{
+        top: -5px;
+        color: mediumvioletred;
+       }
+
+       .txtfield input:focus~span::before,
+       .txtfield input:valid~span::before{
+        width: 100%;
+       }
+
+       .pass{
+        margin: -5px 0 20px 5px;
+        color: #ffffff;
+        cursor: pointer;
+        text-align: center;
+       }
+
+       .pass:hover{
+        text-decoration: underline;
+       }
+
+       .signuplink{
+        margin: 30px 0;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+       }
+
+       .signuplink a{
+        text-decoration: none;
+        color: white;
+       }
+
+       .signuplink a:hover{
+        text-decoration: underline;
+       }
+
+    #a1{
+      margin-left: 25%;
+      width: 50%;
+      height: 25px;
+      background-color: #000000;
+      text-align: center;
+      padding-top: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #a1 a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    #a1 a:hover{
+      text-decoration: underline;
+      color: cyan;
+      letter-spacing: 1px;
+      transition: .75s;
+    }
+
+    button:hover{
+        box-shadow: 2px 2px #ffffff;
+    }
+
+    .define{
+    	position: absolute;
+    	top: 75px;
+    	margin-left: 185px;
+    }
+
+    .logos{
+    	position: absolute;
+    	height: 428px;
+    	width: 40%;
+    	top: 168px;
+    	left: 100px;
+    	box-shadow: 0 5px 5px 2px #000000;
+    }
+    .toc{
+    	font-size: 25px;
+    }
+   
+    
